@@ -1,0 +1,4 @@
+jROOT.egg-info/PKG-INFO
+jROOT.egg-info/SOURCES.txt
+jROOT.egg-info/dependency_links.txt
+jROOT.egg-info/top_level.txt

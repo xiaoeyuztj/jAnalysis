@@ -1,4 +1,4 @@
-#!/bin/env bash
-
 DIR="$( cd "$( dirname $BASH_SOURCE )" && pwd )"
-export PYTHONPATH=$DIR:$DIR/..:$DIR/VBSZZ:$DIR/jROOT:$PYTHONPATH
+cd $DIR
+alias pip="python ~/.local/bin/pip"
+~/.local/bin/pip install -e . --user

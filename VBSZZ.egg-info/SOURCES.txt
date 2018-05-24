@@ -1,0 +1,4 @@
+VBSZZ.egg-info/PKG-INFO
+VBSZZ.egg-info/SOURCES.txt
+VBSZZ.egg-info/dependency_links.txt
+VBSZZ.egg-info/top_level.txt
