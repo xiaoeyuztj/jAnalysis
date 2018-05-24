@@ -17,7 +17,7 @@ def jDiv( x, y, ex, ey):
     return (r, er)
 
 def jPol( a, b, A, eA):
-    #f(A) = a A*b
+    #f(A) = a A^b
     r = a* (A**b)
     er = r * b * (A**(b-1)) * eA /A
     return (r, er)
