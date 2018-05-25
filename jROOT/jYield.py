@@ -1,9 +1,9 @@
 #!/bin/env python
-import setting
+import jROOT.Setting
 import ROOT
 import os
 from math import sqrt
-from AtlasUtil import AtlasLabelPreliminary, DrawTextOneLine, DrawLuminosity
+from jROOT.AtlasUtil import AtlasLabelPreliminary, DrawTextOneLine, DrawLuminosity
 
 def getMCYield( sample_list , cut = None):
     total = ROOT.TH1F("total","total", 1,-10,10)

@@ -1,9 +1,9 @@
 #!/bin/env python
-import setting
+import jROOT.Setting
 import ROOT
 import os
 from math import sqrt
-from AtlasUtil import AtlasLabelPreliminary, DrawTextOneLine, DrawLuminosity
+from jROOT.AtlasUtil import AtlasLabelPreliminary, DrawTextOneLine, DrawLuminosity
 
 class jPlot:
     def __init__(self, Datas, MCs, output="out.pdf", path="./", up=None, down=None, linewidth=2, MCPlotStyle="f",
